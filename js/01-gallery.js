@@ -25,9 +25,9 @@ function getImgOriginal(galleryItems) {
     .join("");
 }
 
-galeryEl.addEventListener("click", createModal);
+galeryEl.addEventListener("click", createImgModal);
 
-function createModal(event) {
+function createImgModal(event) {
   event.preventDefault();
 
   const imgCurent = event.target.dataset.source;
