@@ -2,7 +2,6 @@ import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
 const galeryEl = document.querySelector(".gallery");
-const body = document.querySelector("body");
 const createGalery = getImgOriginal(galleryItems);
 
 galeryEl.insertAdjacentHTML("beforeend", createGalery);
